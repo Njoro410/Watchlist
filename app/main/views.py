@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..request import get_movies,get_movie,search_movie
+from ..request import get_movies,get_movie, get_weather_location,search_movie
 from .forms import ReviewForm
 from ..models import Review
 
@@ -28,7 +28,7 @@ def index():
         return render_template('index.html', title=title, popular=popular_movies, upcoming=upcoming_movie, now_showing=now_showing_movie)
 
 
-@main.route('/movie/<int:id>')
+@main.route('/movie/<string:id>')
 def movie(id):
     '''
     View movie page function that returns the movie details page and its data
