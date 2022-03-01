@@ -1,7 +1,7 @@
 
 import urllib.request
 import json
-from .models import Movie, Location
+from .models import Movie
 
 
 # getting api key

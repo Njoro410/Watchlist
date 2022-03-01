@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..request import get_movies,get_movie, get_weather_location,search_movie
+from ..request import get_movies,get_movie,search_movie
 from .forms import ReviewForm
 from ..models import Review
 
