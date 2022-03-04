@@ -22,7 +22,7 @@ itsdangerous==0.24
 Jinja2==2.9.6
 Mako==1.0.7
 markdown2==2.3.4
-MarkupSafe==1.0
+MarkupSafe==2.0.1
 psycopg2==2.9.3
 pycodestyle==2.8.0
 python-dateutil==2.6.1
